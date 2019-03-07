@@ -49,7 +49,7 @@ table {
 	border-spacing: 0;
 }
 body{
-  background: #00ff00;
+  background: #0f0;
 	font-size: 15px;
 	text-align: center;
 }
@@ -58,7 +58,7 @@ body{
 header{
   margin: 5;
   font-size: 50px;
-  background: green;
+  background: orange;
   border-radius: 10px;
   text-align: center;
 }
