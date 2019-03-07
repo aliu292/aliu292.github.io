@@ -68,15 +68,7 @@ img, object{
 	max-width: 90%;
 }
 
-@-ms-viewport{
-    [viewport property];
-}
 
-@media screen and (max-width:400px) {
-    @-ms-viewport{
-        width:320px;
-    }
-}
 
 #title{
   font-size: 50px;
