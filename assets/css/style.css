@@ -60,6 +60,22 @@ header{
   text-align: center;
 }
 
+}
+img, object{
+	max-width: 90%;
+	max-width: 90%;
+}
+
+@-ms-viewport{
+    [viewport property];
+}
+
+@media screen and (max-width:400px) {
+    @-ms-viewport{
+        width:320px;
+    }
+}
+
 #title{
   font-size: 50px;
   font-weight: 400;
@@ -69,15 +85,11 @@ header{
 .input{
   margin: 3%;
   background-color: pink;
-  border: solid 3px blue;
+  border: solid 3p blue;
   border-radius: 5px;
   padding: 3%;
 
-}
-img, object{
-	max-width: 90%;
-	max-width: 90%;
-}
+
   font-size: 15px;
   text-align: center;
 
