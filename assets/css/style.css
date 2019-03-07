@@ -51,6 +51,9 @@ table {
 body{
   background: #0f0
 }
+img, object{
+	max-width: 90%
+}
 
 header{
   margin: 5;
