@@ -52,7 +52,8 @@ body{
   background: #0f0
 }
 img, object{
-	max-width: 90%
+	max-width: 90%;
+	max-width: 90%;
 }
 
 header{
