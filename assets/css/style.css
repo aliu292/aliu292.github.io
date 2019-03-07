@@ -63,7 +63,7 @@ header{
   text-align: center;
 }
 
-img, object{
+img, object, iframe{
 	max-width: 90%;
 	max-width: 90%;
 }
