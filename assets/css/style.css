@@ -56,7 +56,7 @@ body{
 header{
   margin: 5;
   font-size: 50px;
-  background: #green;
+  background: green;
   border-radius: 10px;
   text-align: center;
 }
@@ -85,7 +85,7 @@ img, object{
 .input{
   margin: 3%;
   background-color: pink;
-  border: solid 3p blue;
+  border: solid 3px blue;
   border-radius: 5px;
   padding: 3%;
 }
