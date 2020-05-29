@@ -90,10 +90,10 @@ img, object, iframe{
   padding: 4% 3%;
 }
 h1{
-	font-size: 16px;
+	font-size: 120%;
 	font-weight: bold;
 }
-h2{font-size: 16px;
+h2{font-size: 120%;
 }
 
 p{
@@ -103,9 +103,15 @@ img{
 	vertical-align: middle;
 	text-align: left;
 }
+.title img{
+	size: 10%;
+}
+.title h1{
+	font-size: 120%;
+}
 .lastupdate{
 	text-align: center;
-	font-size: 10px;
+	font-size: 80%;
 	margin-top: 0px;
 }
 /*edit*/
