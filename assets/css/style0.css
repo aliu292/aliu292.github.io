@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 80%;
 	font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 	vertical-align: baseline;
 	-webkit-box-sizing: border-box;
@@ -54,7 +54,7 @@ table {
 }
 body{
   background: #0f0;
-	font-size: 15px;
+	font-size: 90%;
 	text-align: center;
 }
 
@@ -74,8 +74,6 @@ img, object, iframe{
 	max-width: 90%;
 }
 
-
-
 #title {
   font-size: 30px;
 
@@ -89,26 +87,29 @@ img, object, iframe{
   border-radius: 5px;
   padding: 4% 3%;
 }
+
 h1{
-	font-size: 120%;
+	font-size: 100%;
 	font-weight: bold;
 }
-h2{font-size: 120%;
+h2{
+	font-size: 100%;
 }
 
 p{
 	text-align: left;
+	font-size: 80%;
 }
 img{
 	vertical-align: middle;
 	text-align: left;
 }
 .title img{
-	width: 10%;
+	width: 20%;
 }
 .lastupdate{
 	text-align: center;
-	font-size: 80%;
+	font-size: 70%;
 	margin-top: 0px;
 }
 /*edit*/
