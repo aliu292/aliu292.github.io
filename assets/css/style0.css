@@ -107,6 +107,10 @@ img{
 .title img{
 	max-width: 10%;
 }
+
+.bulletin img{
+	max-width: 5%;
+}
 .lastupdate{
 	text-align: center;
 	font-size: 70%;
