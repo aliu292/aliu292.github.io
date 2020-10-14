@@ -75,7 +75,7 @@ img, object, iframe{
 }
 
 #title {
-  font-size: 30px;
+  font-size: 200%;
 
 }
 
@@ -89,16 +89,17 @@ img, object, iframe{
 }
 
 h1{
-	font-size: 100%;
+	font-size: 200%;
 	font-weight: bold;
 }
 h2{
-	font-size: 100%;
+	font-size: 120%;
 }
 
 p{
 	text-align: left;
-	font-size: 80%;
+	font-size: 90%;
+	margin: 1% 0;
 }
 img{
 	vertical-align: middle;
@@ -109,11 +110,50 @@ img{
 }
 
 .bulletin img{
-width: 4%;
+height: 40px;
+margin: 1%;
 }
 .lastupdate{
 	text-align: center;
 	font-size: 70%;
 	margin-top: 0px;
 }
+
 /*edit*/
+.collapse{
+  cursor: pointer;
+  display: block;
+  background: #cdf;
+	background-color: hotpink;
+	border: solid purple 2px;
+	margin: 2% 0% 0% 0%;
+}
+.collapse h1
+{
+		font-weight: bolder;
+		font-size: 150%;
+		color: white;
+}
+.collapse h2{
+	font-size: 100%;
+	color: white;
+}
+
+.collapse + input{
+  display: none; /* hide the checkboxes */
+}
+.collapse + input + div{
+  display:none;
+}
+.collapse + input:checked + div{
+  display:block;
+	padding: 2% 3%;
+	background-color: #70ffaa;
+	border: solid yellow 3px;
+	border-top: 0px;
+}
+
+#bullet{
+	height: 25px;
+	margin: -5px 0;
+}
